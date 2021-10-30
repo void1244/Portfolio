@@ -14,21 +14,28 @@ footer a {
     a:hover{
         color: aquamarine;
     }
-  
-  
+
+body
+{
+  background-color:#444;
+}
+.col-12,.card-body,.btn,.card-footer
+{
+  background-color:#666;
+} 
   nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background-color: gray;
-    -webkit-box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76);
+    background-color: rgb(0, 0, 0);
+    /* -webkit-box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76);
 -moz-box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76);
-box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76);
+box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76); */
   }
   
   .logo1 {
-    color: white;
+    color:#666;
     text-transform: uppercase;
     letter-spacing: 5px;
     font-size: 20px;
@@ -53,7 +60,7 @@ box-shadow: 0px 4px 9px 1px rgba(0,0,0,0.76);
   .burger1 div {
     width: 25px;
     height: 3px;
-    background-color: aliceblue;
+    color:#666;
     margin: 5px;
   }
   
